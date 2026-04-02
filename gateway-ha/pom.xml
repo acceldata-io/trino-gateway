@@ -25,7 +25,8 @@
         <dep.jeasy.version>4.1.0</dep.jeasy.version>
         <dep.mockito.version>5.15.2</dep.mockito.version>
         <dep.okhttp3.version>4.12.0</dep.okhttp3.version>
-        <dep.trino.version>469</dep.trino.version>
+        <dep.trino.version>472.3.3.6.3-101</dep.trino.version>
+        <dep.guava.version>33.4.8-jre</dep.guava.version>
     </properties>
 
     <dependencies>
@@ -69,6 +70,7 @@
         <dependency>
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
+            <version>${dep.guava.version}</version>
         </dependency>
 
         <dependency>
