@@ -86,6 +86,14 @@
         </dependencies>
     </dependencyManagement>
 
+    <repositories>
+        <repository>
+            <id>odp-central</id>
+            <name>Releases</name>
+            <url>https://repo1.acceldata.dev/repository/odp-central/</url>
+        </repository>
+    </repositories>
+
     <build>
         <plugins>
             <plugin>
