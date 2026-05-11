@@ -36,6 +36,17 @@
         <url>https://github.com/trinodb/trino-gateway</url>
     </scm>
 
+    <distributionManagement>
+        <repository>
+            <id>nexus-releases</id>
+            <url>https://repo1.acceldata.dev/repository/odp-staging-release/</url>
+        </repository>
+        <snapshotRepository>
+            <id>nexus-snapshots</id>
+            <url>https://repo1.acceldata.dev/repository/odp-staging-snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
+
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -90,7 +101,7 @@
         <repository>
             <id>odp-central</id>
             <name>Releases</name>
-            <url>https://repo1.acceldata.dev/repository/odp-central/</url>
+            <url>https://repo1.acceldata.dev/repository/odp-staging-release/</url>
         </repository>
     </repositories>
 
