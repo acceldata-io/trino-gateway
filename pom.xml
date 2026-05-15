@@ -43,7 +43,7 @@
         </repository>
         <snapshotRepository>
             <id>nexus-snapshots</id>
-            <url>https://repo1.acceldata.dev/repository/odp-staging-snapshots/</url>
+            <url>https://repo1.acceldata.dev/repository/odp-snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
 
