@@ -99,7 +99,7 @@
 
     <repositories>
         <repository>
-            <id>odp-central</id>
+            <id>odp-staging-central</id>
             <name>Releases</name>
             <url>https://repo1.acceldata.dev/repository/odp-release/</url>
         </repository>
