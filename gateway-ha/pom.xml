@@ -16,6 +16,7 @@
     <description>Core of Trino Gateway</description>
 
     <properties>
+        <odp.release.version>3.4.3.0-1</odp.release.version>
         <environments>development</environments>
         <app.main.class>io.trino.gateway.ha.HaGatewayLauncher</app.main.class>
         <frontend.project.name>webapp</frontend.project.name>
@@ -25,7 +26,7 @@
         <dep.flyway.version>12.5.0</dep.flyway.version>
         <dep.mockito.version>5.23.0</dep.mockito.version>
         <dep.okhttp3.version>5.3.2</dep.okhttp3.version>
-        <dep.trino.version>481.3.4.3.0-1</dep.trino.version>
+        <dep.trino.version>481.${odp.release.version}</dep.trino.version>
     </properties>
 
     <dependencyManagement>
