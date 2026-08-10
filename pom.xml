@@ -58,6 +58,7 @@
         <air.release.preparation-goals>clean verify -DskipTests</air.release.preparation-goals>
         <dep.jetty.version>12.0.34</dep.jetty.version>
         <dep.jackson.version>2.18.6</dep.jackson.version>
+        <dep.logback.version>1.5.25</dep.logback.version>
     </properties>
 
     <dependencyManagement>
