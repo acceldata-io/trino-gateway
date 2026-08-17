@@ -39,11 +39,13 @@
     <distributionManagement>
         <repository>
             <id>nexus-releases</id>
+            <name>Releases</name>
             <url>https://repo1.acceldata.dev/repository/odp-staging-release/</url>
         </repository>
         <snapshotRepository>
             <id>nexus-snapshots</id>
-            <url>https://repo1.acceldata.dev/repository/odp-staging-snapshots/</url>
+            <name>Snapshot</name>
+            <url>https://repo1.acceldata.dev/repository/odp-staging-snapshot/</url>
         </snapshotRepository>
     </distributionManagement>
 
