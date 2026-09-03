@@ -16,7 +16,7 @@
     <description>Core of Trino Gateway</description>
 
     <properties>
-        <odp.release.version>3.4.3.0-1</odp.release.version>
+        <odp.release.version>3.4.3.0-SNAPSHOT</odp.release.version>
         <environments>development</environments>
         <app.main.class>io.trino.gateway.ha.HaGatewayLauncher</app.main.class>
         <frontend.project.name>webapp</frontend.project.name>
