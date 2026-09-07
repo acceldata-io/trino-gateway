@@ -6,7 +6,7 @@
     <parent>
         <groupId>io.trino.gateway</groupId>
         <artifactId>trino-gateway-parent</artifactId>
-        <version>15.3.3.6.5-SNAPSHOT</version>
+        <version>15.3.3.6.6-SNAPSHOT</version>
         <relativePath>../</relativePath>
     </parent>
 
@@ -15,7 +15,7 @@
     <name>gateway-ha</name>
 
     <properties>
-        <odp.release.version>3.3.6.5-SNAPSHOT</odp.release.version>
+        <odp.release.version>3.3.6.6-SNAPSHOT</odp.release.version>
         <environments>development</environments>
         <app.main.class>io.trino.gateway.ha.HaGatewayLauncher</app.main.class>
         <frontend.project.name>webapp</frontend.project.name>
