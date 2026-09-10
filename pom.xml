@@ -11,7 +11,7 @@
 
     <groupId>io.trino.gateway</groupId>
     <artifactId>trino-gateway-parent</artifactId>
-    <version>15.3.3.6.5-SNAPSHOT</version>
+    <version>15.3.3.6.501-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>trino-gateway-parent</name>
@@ -48,7 +48,7 @@
     </distributionManagement>
 
     <properties>
-        <odp.release.version>3.3.6.5-SNAPSHOT</odp.release.version>
+        <odp.release.version>3.3.6.501-SNAPSHOT</odp.release.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <project.build.targetJdk>23</project.build.targetJdk>
